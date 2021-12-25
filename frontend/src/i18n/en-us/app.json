@@ -1,0 +1,9 @@
+{
+  "game.deal": "Deal",
+  "game.reset": "Reset",
+  "game.cardsLeft": "Cards left",
+  "game.acesShown": "Aces shown",
+  "game.winner": "Great job. You won the game.",
+  "game.lostGame": "Sorry!! You lost the game. Please try again",
+  "game.playAgain": "Play Again"
+}

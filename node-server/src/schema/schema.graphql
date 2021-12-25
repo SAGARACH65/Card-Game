@@ -1,0 +1,36 @@
+type Game {
+  id: ID!
+}
+
+type GameStatus {
+  userGameId:String
+  isGameCompleted: Boolean
+  hasUserWon: Boolean
+  winnerCardsDealt: Int
+  cardsInDeck: Int
+}
+
+type Card {
+  number: Int
+  name: String
+}
+
+type DealResult {
+  cardsDealt: [Card]
+  gameStatus: GameStatus
+}
+
+type User {
+  id: ID!
+  username: String
+  uncompletedGames: [Game!]
+}
+
+type Query {
+  user(id: Int): User
+}
+
+type Mutation {
+  deal(userGameId: String!): DealResult
+  startNewGame(gameId: Int!): DealResult
+}
