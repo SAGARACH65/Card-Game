@@ -22,7 +22,7 @@ https://user-images.githubusercontent.com/24357040/188599154-841c26db-b17c-4354-
 https://user-images.githubusercontent.com/24357040/188599283-58643507-dac9-4116-b49d-2d26790c75df.mp4
 
 
-#Rules of the game
+# Rules of the game
 
 1. Assuming a standard deck (52 cards of 4 suits: ♣ Clubs, ♦ Diamonds, ♥ Hearts, ♠ Spades).
 2. Press a "Deal" button to deal 5 random cards.
